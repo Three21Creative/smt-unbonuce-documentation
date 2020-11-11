@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+@import url(https://smt-smarttrader.s3.amazonaws.com/SMT20-036/fonts/stylesheet.css);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap);
+
+table,
+body {
+  margin: 0;
+}
+
+@media only screen and (min-width: 530px) {
+  .mj-column-px-600 {
+    width: 600px !important;
+    max-width: 600px;
+  }
+  .mj-column-px-500 {
+    width: 500px !important;
+    max-width: 500px;
+  }
+  .mj-column-per-50 {
+    width: 50% !important;
+    max-width: 50%;
+  }
+  .mj-column-per-100 {
+    width: 100% !important;
+    max-width: 100%;
+  }
+  .mj-column-px-540 {
+    width: 540px !important;
+    max-width: 540px;
+  }
+  .mj-column-px-160 {
+    width: 160px !important;
+    max-width: 160px;
+  }
+  .mj-column-per-25 {
+    width: 25% !important;
+    max-width: 25%;
+  }
+}
+</style > <style type='text/css' > @media only screen and (max-width:530px) {
+  table.full-width-mobile {
+    width: 100% !important;
+  }
+  td.full-width-mobile {
+    width: auto !important;
+  }
+}
+</style > <style type='text/css' > .hero-text,
+.hero-text > * {
+  color: white !important;
+}
+@media only screen and (max-width: 530px) {
+  .footer > div {
+    font-size: 12px !important;
+  }
+  .sm-padding-reset {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+  .mj-column-px-600 {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .mj-column-px-540,
+  .mj-column-px-450,
+  .sm-resize {
+    width: auto !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .sm-resize-button > table {
+    width: 100% !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .sm-center {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+  .sm-center > table {
+    margin: 0 auto !important;
+  }
+  div[style='font-family:Helvetica;font-size:45px;font-weight:bold;line-height:45px;text-align:left;color:#ffffff;'] {
+    font-size: 32px !important;
+    line-height: 36px !important;
+  }
+  .mj-column-px-250 {
+    width: auto !important;
+  }
+  .sm-title *,
+  .sm-title div {
+    font-size: 24px !important;
+    line-height: 28px !important;
+  }
+  .sm-pr-0 > table td {
+    padding-right: 25px !important;
+  }
+  .mj-column-px-250 img {
+    padding: 0 10px;
+    width: 75% !important;
+    height: auto !important;
+  }
+}
+
+/** Wireframe look **/
+
+[style*='color:#ffffff'] {
+  background: white;
+  display: inline;
+  opacity: 0.5;
+  color: transparent !important;
+}
+
+a[style*='color:#ffffff'],
+a[style*='color:#2D303B'] {
+  background: white !important;
+  display: inline;
+  opacity: 0.35;
+  color: transparent !important;
+}
+
+[style*='color:#000000'],
+[style*='color:grey;'] {
+  background: grey;
+  color: transparent !important;
+  display: inline;
+  opacity: 0.25;
+}
+
+[style*='color:#000000'] > * {
+  background: grey;
+  color: transparent !important;
+  display: inline;
+  opacity: 0.25;
+}
