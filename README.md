@@ -1,1 +1,1 @@
-# SMT Unbounce Documentatioon
+# SMT Unbounce Documentation

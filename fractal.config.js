@@ -13,7 +13,7 @@ const fractal = (module.exports = require('@frctl/fractal').create());
 /*
  * Give your project a title.
  */
-fractal.set('project.title', 'SMT 036/049/050 Email Template Patterns/Blocks');
+fractal.set('project.title', 'SMT Unbounce Documentation');
 
 /*
  * Tell Fractal where to look for components.
@@ -40,24 +40,19 @@ fractal.web.set('builder.dest', path.join(__dirname, 'docs'));
  * Customize Mandelbrot
  */
 
-
 // require the Mandelbrot theme module
 const mandelbrot = require('@frctl/mandelbrot');
 
 // create a new instance with custom config options
 const myCustomisedTheme = mandelbrot({
-    skin: 'black',
-    panels: ['html','notes'],
-    styles: [
-        'default',
-        '/global/app.css'
-    ]
-    // any other theme configuration values here
+  skin: 'black',
+  panels: ['html', 'notes'],
+  styles: ['default', '/global/app.css'],
+  // any other theme configuration values here
 });
 
 // tell Fractal to use the configured theme by default
 fractal.web.theme(myCustomisedTheme);
-
 
 // const myCustomisedTheme = mandelbrot({
 //     skin: "fuchsia",
@@ -65,4 +60,3 @@ fractal.web.theme(myCustomisedTheme);
 // });
 
 // fractal.web.theme(myCustomisedTheme);
-
