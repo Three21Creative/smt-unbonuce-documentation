@@ -124,5 +124,5 @@ code pre,
 .hljs-attribute,
 .hljs-name,
 .hljs-tag {
-  color: skyblue;
+  color: skyblue !important;
 }
