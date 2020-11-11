@@ -115,3 +115,14 @@ pre {
   overflow: hidden;
   /* padding: 2rem; */
 }
+
+code pre,
+.Browser-panel .Code {
+  color: white;
+}
+
+.hljs-attribute,
+.hljs-name,
+.hljs-tag {
+  color: skyblue;
+}
